@@ -1,5 +1,5 @@
 # 📚Reference
-코딩레시피 - [스프링부트(SpringBoot) 게시판 프로젝트] 03_게시글 작성_작성 페이지 이동하기(springboot, mysql, jpa)
+코딩레시피 - [스프링부트(SpringBoot) 게시판 프로젝트]
 
 
 # 개발환경
