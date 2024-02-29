@@ -1,7 +1,11 @@
+# 📚Reference
+코딩레시피 - [스프링부트(SpringBoot) 게시판 프로젝트] 03_게시글 작성_작성 페이지 이동하기(springboot, mysql, jpa)
+
+
 # 개발환경
 1. IDE: IntelliJ IDEA Community
-2. Spring Boot 2.6.13 
-3. JDK 11
+2. Spring Boot 3.2.3
+3. JDK 17
 4. mysql
 5. Spring Data JPA
 6. Thymeleaf
@@ -74,6 +78,6 @@ constraint FKcfxqly70ddd02xbou0jxgh4o3
 ## mysql DataBase 계정 생성 및 권한 부여 
 ```
 create database db_codingrecipe;
-create user user_codingrecipe@localhost identified by '1234';
-grant all privileges on db_codingrecipe.* to user_codingrecipe@localhost;
+create user root@localhost identified by '1234';
+grant all privileges on db_codingrecipe.* to root@localhost;
 ```
