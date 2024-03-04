@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/board")
 public class BoardController {
-    @GetMapping("/save")
+    @GetMapping("/write")
     public String saveForm() {
-        return "save";
+        return "write";
     }
 }
