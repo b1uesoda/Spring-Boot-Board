@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Table(name = "board_table")
-public class BoardEntity {
+public class BoardEntity extends BaseEntity {
     @Id// pk 컬럼 지정. 필수
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
     private Long id;
