@@ -20,6 +20,6 @@ public class BoardController {
     public String save(@ModelAttribute BoardDTO boardDTO) {
         System.out.println("boardDTO = " + boardDTO);
         boardService.save(boardDTO);
-        return null;
+        return "index";
     }
 }
