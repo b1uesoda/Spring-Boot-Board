@@ -5,8 +5,8 @@ import com.codingrecipe.board.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-// DTO -> Entity
-// Entity -> DTO
+// DTO -> Entity (Entity Class)
+// Entity -> DTO (DTO Class)
 
 @Service
 @RequiredArgsConstructor
