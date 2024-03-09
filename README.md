@@ -30,7 +30,7 @@ board_title    varchar(255) null,
 board_writer   varchar(20)  not null,
 file_attached  int          null
 );
-
+```
 
 
 
