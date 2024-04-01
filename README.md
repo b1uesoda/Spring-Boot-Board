@@ -31,18 +31,3 @@ board_writer   varchar(20)  not null,
 file_attached  int          null
 );
 ```
-
-
-
-
-
-
-
-
-
-## mysql DataBase 계정 생성 및 권한 부여 
-```
-create database db_codingrecipe;
-create user root@localhost identified by '1234';
-grant all privileges on db_codingrecipe.* to root@localhost;
-```
